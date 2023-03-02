@@ -1,0 +1,4 @@
+message Mail {
+  required string email = 1;
+  required string type = 2;
+}
