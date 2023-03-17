@@ -1,5 +1,8 @@
+syntax = "proto3";
+option java_package = "ua.nure.makieiev.orendarbackend.proto";
+
 message Mail {
-  required string email = 1;
-  required string type = 2;
-  required string code = 3;
+  string email = 1;
+  string type = 2;
+  string code = 3;
 }
