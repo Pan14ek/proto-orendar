@@ -1,5 +1,5 @@
 syntax = "proto3";
-option java_package = "ua.nure.makieiev.orendarbackend.proto";
+option java_package = "ua.nure.makieiev.proto";
 
 message Mail {
   string email = 1;
